@@ -18,7 +18,7 @@ watch -n1 --color juju status --color
 juju debug-logs
 ```
 - See it fail in `juju-watch`
-    - Explain that we could re-write the code, re-pack, re-deploy which would take **awhile** OR we could do a juju debug-hooks session
+    - Explain that we could re-write the code, re-pack, re-deploy to fix this which would take **awhile** OR we could do a juju debug-hooks session and fix it there
 
 ```
 juju debug-hooks awesome/<failing unit number>
