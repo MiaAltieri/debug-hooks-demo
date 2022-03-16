@@ -32,7 +32,7 @@ juju resolved awesome/<failing unit number>
 ```
 ./dispatch
 vi src/charm
-# change line 48 to useful_math = unit_number/0 
+# change line 48 to useful_math = unit_number/10 
 # exit vi
 # re-run code and see that it works
 ./dispatch
