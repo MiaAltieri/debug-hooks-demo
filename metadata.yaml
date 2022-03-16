@@ -1,0 +1,16 @@
+# Copyright 2022 Ubuntu
+# See LICENSE file for licensing details.
+
+# For a complete list of supported options, see:
+# https://juju.is/docs/sdk/metadata-reference
+name: awesome
+display-name: AwesomeCharm
+description: |
+  Best Charm ever!
+summary: Charm for doing best stuff
+series:
+  - focal
+
+peers:
+  awesome:
+    interface: awesome-replicas
