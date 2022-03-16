@@ -4,6 +4,7 @@
 - Explain Charm Code
 
 (6 mins)
+- Demonstrate why we would want to use Debug hooks
 - Build and Deploy Charm
 ```
 charmcraft pack
